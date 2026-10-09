@@ -1,0 +1,33 @@
+﻿# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and cache
+.venv/
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node dependencies and generated build output
+node_modules/
+frontend/dist/
+
+# Local data and uploaded documents
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+
+# Large local archive and generated report
+/backend.zip
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+/project_report.txt
